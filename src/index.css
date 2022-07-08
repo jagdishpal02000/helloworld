@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.main-container {
+  padding-top: 130px;
+  text-align: center;
+}
+
+.ProductBox{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  gap: 120px;
+  justify-content: center;
+}
+
+
+
+.product-img {
+  width: 200px;
+  height:150px;
+}
+
+
+.loading {
+  text-align: center;
+  margin-top: 60px;
+}
+
+@media (max-width: 480px) {
+  .box {
+    width: 350px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
